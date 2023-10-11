@@ -13,3 +13,5 @@ In the second attempt the updated score will added to a random number doubled.
 If the second attempt does not result in a number that is greater than the inital random goal, the player loses and the game is over.
 
 Its a simple game based on luck and chance!
+
+Only imports needed: Random and Scanner utilities.
