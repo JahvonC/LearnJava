@@ -1,5 +1,3 @@
-// CLASSES MUST BE NAMED THE SAME AS FILE AT TOP LEVEL
-// TO FIX/CREATE A NEW CLASS NAME THE CLASS CANNOT BE PUBLIC
 import java.util.Scanner;
 import java.util.Random;
 
@@ -10,7 +8,7 @@ public class StaticNew {
         Scanner nameInput =  new Scanner(System.in);
         System.out.println("Enter Your name");
         String userName = nameInput.nextLine();
-        System.out.println("The goal of the game is to get a score over 1000 in two tries, its all about luck! So Good luck " + userName + "!");
+        System.out.println("The goal of the game is to beat a random goal in two tries, its all about luck! So Good luck " + userName + "!");
         Scanner newObj = new Scanner(System.in);
         System.out.println("Enter a number 1 - 25");
         String number = newObj.nextLine();
@@ -24,7 +22,7 @@ public class StaticNew {
         System.out.println("Score: " + scoreUpdate);
 
         if(scoreUpdate <= randomGoal){
-            System.out.println("Your number * 30 = " + scoreUpdate);
+            System.out.println("Your number * 10 = " + scoreUpdate);
         } else {
             System.out.println("Easy Game, " + userName + "!" + " You Win!");
         }
